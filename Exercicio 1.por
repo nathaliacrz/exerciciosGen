@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 
-		inteiro anos, anosMeses, meses, mesesDias, dias, diasTotais
+		inteiro anos, meses, dias, diasTotais
 		
 		escreva("Digite sua idade em: " + "\n")
 		escreva("Anos: ")
@@ -14,9 +14,7 @@ programa
 		escreva("Dias: ")
 		leia(dias)
 
-		anosMeses = anos * 12
-		mesesDias = (anosMeses + meses) * 30
-		diasTotais = mesesDias + dias
+	     diasTotais = anos * 365 + meses * 30 + dias
 
 		escreva("Você está vivo há " + diasTotais + " dias.")
 		
@@ -27,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 38; 
+ * @POSICAO-CURSOR = 250; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
