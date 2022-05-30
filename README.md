@@ -1,2 +1,2 @@
 # exerciciosPortugol
-Exercícios da lista de lógica da programação em Portugol. 
+Resolução de todos os exercícios das listas disponibilizadas pela Gen. 🏋️‍♀️😁 
