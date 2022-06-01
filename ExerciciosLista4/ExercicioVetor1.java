@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class ExercicioVetor1 {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Exercicio1 {
 
 		System.out.println("Insira 5 valores: ");
 
-		double[] valor = new double[4];
+		double[] valor = new double[5];
 		double maior = 0;
 
 		for (int i = 0; i < 5; i++) {
@@ -20,10 +20,9 @@ public class Exercicio1 {
 			if (valor[i] > maior) {
 				maior = valor[i];
 			}
-
-			System.out.println(maior);
-			sc.close();
-
 		}
+		System.out.println("Maior pontuacao: " + maior);
+		sc.close();
+
 	}
 }
